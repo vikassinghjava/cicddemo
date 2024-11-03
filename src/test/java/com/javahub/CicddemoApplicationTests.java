@@ -20,7 +20,7 @@ class CicddemoApplicationTests {
 	public void testGreet() throws Exception
 	{
 		String name="vikas";
-		mockMvc.perform(MockMvcRequestBuilders.get("welcome/{name}",name))
+		mockMvc.perform(MockMvcRequestBuilders.get("/welcome/{name}",name))
 		.andExpect(MockMvcResultMatchers.status().isOk())
 		.andExpect(MockMvcResultMatchers.content().string("Hello "+name+"successfulyy deployed!!"));
 	} 
