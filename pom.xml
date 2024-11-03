@@ -68,7 +68,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>jenkinsCICDdemo.war</finalName>
+		<finalName>jenkinsCICDdemoVikas</finalName>
 	</build>
 
 </project>
